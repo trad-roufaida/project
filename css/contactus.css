@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+	padding: 0;
+	 background: url(../img/00.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: BRLNSB;
+
+}
+.main-container {
+  max-width: 1210px;
+  margin: 0 auto;
+  padding-top: 15px;
+  display: flex;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+
+
+}
+.box_container{display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+    width: 600px;
+  padding:40px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  background:white ; /* rgb(0,0,0,.5) #191919*/;
+  text-align: center;
+  max-width: 820px;
+ 
+   
+}
+.box input,select,textarea{
+	border:none;
+	outline: none;
+	background: none;
+	color: black;
+	display: block;
+	margin: 9px auto;
+	text-align: center;
+	border: 2px solid grey;
+	padding: 14px 10px;
+	/*width: 300px;*/
+	border-radius: 24px;
+	transition: 0.25s;
+   font-family: BRLNSB;}
+
+.box input[type="submit"]{
+	border:none;
+	outline: none;
+	background: none;
+	color: grey;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #f0932b;
+	padding: 14px 45px;
+	border-radius: 24px;
+	transition: 0.25s;
+    cursor: pointer;
+    font-family: BRLNSB;
+}
+
+.box p{
+	color: #f0932b ;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.sections {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+.sections h1{
+	color: #f0932b;
+	text-transform: uppercase;
+	font-weight: 500;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+   
+.sections span{
+	 /*width: 680px;
+	padding: 40px;
+    background:white;/* rgb(0,0,0,.8)#191919;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.box input:focus,.box select:focus{
+	width: 280px;
+	border-color: #f0932b;}
+
+.box textarea{
+ width: 500px;
+ border-color: #f0932b;
+}
+
+.box input[type="submit"]:hover{
+	background: #f0932b;
+}
+
+
+form {
+	max-width:780px;
+	padding:100px;
+
+
+}
+
+
+
+@media only screen and (max-width:630px ) { 
+	.sections  {
+		width: 600px;
+	
+
+      }
+    .box textarea{
+    	width: 200px;
+	
+    }  
+
+}
+
+ 

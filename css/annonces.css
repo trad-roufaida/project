@@ -1,0 +1,132 @@
+body{background: #edebeb ;/*  #edebeb url(../img/00.jpg); */ 
+	     background-size: cover;
+	     margin: 0;
+	     padding: 0;
+	    }
+h2{ 
+     margin:0px;
+     text-transform: uppercase;
+     color: black;
+     font-family: BRLNSB;
+}
+
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+
+}
+ .box{
+    width: 100%;
+    background: white/*rgb(0,0,0,.8)*/;
+    padding: 50px;
+    margin-block-end:10px; /*laisser d'espace entre forms*/
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+}
+.title{
+	font-style: oblique ;
+	font-weight: 60px;
+	color: black;/* #f0932b;*/
+	margin-block-end: 0;
+    display: contents;
+    text-decoration: underline;
+    font-family: BRLNSB;
+
+}
+
+.content{
+	width: 90%;
+	margin: 30px auto 30px;
+}
+.content .main-content{
+	width: 70%;
+	float: right;
+} 
+.content .sidebar{
+	width: 30%;
+	/*float: left;*/
+	border: 1px  white;
+	height: 300px;
+} 
+.content .main-content .ads{
+
+	width: 95%;
+	height: 270px;
+	margin: 10px auto;
+	border-radius: 5px;
+
+}
+
+
+.content .main-content .ads .ad-image{
+	width: 40%;
+	height: 100%;
+	float: left;
+	
+}
+.content .main-content .ads .ads-info{
+	width: 60%;
+	padding: 10px;
+	float: right;
+	color: black;
+     font-family: BRLNSB;
+}
+
+
+
+ .box a{
+	float:right;
+	color: #f0932b;
+	margin: 20px auto;
+	transition: 0.25s;
+	text-decoration:none;
+	padding: 14px 14px;
+}
+
+.box a:hover{
+	color: grey;
+	text-decoration:underline;
+}
+
+ .star-rating{
+  direction: rtl;
+  display: inline-block;
+}
+
+
+input[type='radio']{
+  display: none;
+}
+
+
+
+input[type='submit']{
+	background: none;
+	color:black;
+	margin: 9px auto;
+	text-align: center;
+	border: 2px solid grey;
+	padding:  5px 5px;
+	border-radius: 24px;
+	transition: 0.25s;
+    cursor: pointer;
+     font-family: BRLNSB;
+}
+
+.box input[type="submit"]:hover{
+	background: #f0932b;
+}
+
+  	.box .supp{
+	float:right;
+	color: #f0932b;
+	margin: 20px auto;
+	transition: 0.25s;
+	text-decoration:none;
+	padding: 14px 14px;
+}
+
+.box .supp:hover{
+	color: grey;
+	text-decoration:underline;
+}

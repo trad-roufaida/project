@@ -1,0 +1,311 @@
+/*.header{
+	height: 250px;
+	width: 100%;
+	background: black;
+	position: relative;
+}
+
+.header_texture{
+	height: 250px;
+	width: 100%;
+	position: absolute;
+	top: 0;  left: 0;
+	background: url('../img/header 1.jpg');
+	z-index: 1;
+	opacity: 0.5;}
+	/*animation: slide 20s infinite;
+}
+
+@keyframes slide{
+	25%{
+		background: url('../img/meneuisier.jpeg');
+	}
+	50%{
+		background: url('../img/macon.jfif');
+	}
+	75%{
+		background: url('../img/peintre.jpg');
+	}
+	100%{
+		background: url('../img/plombier.jpg');
+	}
+}*/
+/*.header_mask{
+	position: absolute;
+	bottom: 0;
+	background: 0 0;
+	height: 42px;
+	width: 100%;
+	z-index: 10;
+
+}
+
+.header_navbar{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	padding: 17px 13px;
+    border-radius: 3px;
+
+}
+
+.header_navbar_logo_title{
+	color: white;
+}
+.header_navbar_menu_link{
+	margin-left: 40px;
+	color: white;
+	text-decoration: none;
+	/*float: right;
+}
+
+
+
+/*.header_show_navbar_menu, .header_hide_navbar_menu{
+	transition: 0.4s;
+	font-size: 30px;
+	cursor: pointer;
+	display: none;
+}
+.header_show_navbar_menu{
+	float: right;
+}
+.header_navbar_menu_link:hover,#btn:hover, .header_show_navbar_menu, .header_hide_navbar_menu{
+	padding-bottom:3px;
+	border-bottom:2px solid white;  }
+
+
+#header_search{
+	height: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+/*.header_search img{
+	background: none;
+    width: 40px;
+    line-height: 40px;
+}*/
+
+/*#tbox,#btn{
+    border: none;
+    outline: none;
+    transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    -webkit-transition: width 0.5s ease-in-out;
+margin: 11px 5px 0 5px;
+}
+#tbox{
+	width: 0px;
+	color: black;
+}
+
+
+#header_search:hover > #tbox,#btn:focus{
+    width: 200px;
+    padding: 0 10px;
+
+}
+
+#btn{
+	background: none;
+	color: white;
+	padding:0 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+
+}
+
+
+
+.header_navbar_toggle{
+	width: 40px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	display: none;
+
+}
+
+/*pour faire trois traits*/
+/*.header_navbar_toggle_icons,.header_navbar_toggle_icons:before, .header_navbar_toggle_icons:after{
+	content:""; 
+	display: block;
+	width: 100%;
+	height: 3px;
+	border-radius: 5px;
+	background: white;
+	position: relative;
+	
+}
+
+.header_navbar_toggle_icons:before{top:10px;}
+.header_navbar_toggle_icons:after{top:-14px;}
+
+.header_navbar.is_open {
+	transform: translateY(0);
+}
+@media only screen and (max-width:800px ) { 
+	.container{
+		width: 100%;
+		padding: 0 20px;
+
+		
+	}
+   .header_navbar_toggle{
+	    display: flex;
+	    float: right;
+	    z-index: 1000;
+	    cursor: pointer;
+    }
+  .header_navbar{
+  	    transition: all 0.3s ease-in-out;
+  	    transform: translateY(-100%);
+    	display: flex;
+    	flex-direction: column;
+    	justify-content:space-between justify;
+    	align-items: center;
+    	position: absolute;
+    	top: 0; left: 0; 
+    	background: grey;    	
+    	margin:0px 0;
+    	width: 100%;
+    	height: 100vh;
+    	padding: 200px 0;
+    	font-size: 20px;
+
+    }
+
+	
+}
+
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+#dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+#dropdown-content a {
+  color: white;
+   padding:20px 16px;
+
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover #dropdown-content {
+	padding-bottom:3px;
+	display: block;
+	}
+
+.dropdown:hover #dropbtn {
+  
+  border-bottom:2px solid white;
+  display: block;
+}
+*/
+
+header{
+	background: linear-gradient(rgba(0,0,10,0.5),rgba(0,0,0,0.5)), url('../img/../img/la-main-de-travailleur-de-sexe-masculin.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin-top: 0;
+
+	animation: slide 20s infinite;
+}
+
+/*@keyframes slide{
+	25%{
+		background: url('../img/meneuisier.jpeg');
+	}
+	50%{
+		background: url('../img/macon.jfif');
+	}
+	75%{
+		background: url('../img/peintre.jpg');
+	}
+	100%{
+		background: url('../img/plombier.jpg');
+	}
+}*/
+
+
+
+
+
+
+form{
+	display:inline-block;
+	justify-content: center;
+	align-items: center;
+	padding-top: 250px;
+    text-align: center;
+    margin-left: 315px;
+    font-family: BRLNSB;
+}
+ 
+
+.search-field{
+	height: 30px;
+	padding: 10px;
+	border:none;
+	border-radius: 25px;
+	outline: none;
+	border: 3px solid grey;
+	font-family: BRLNSB;
+
+}
+
+.artisant{
+	width: 300px;
+}
+
+.search-btn{
+	height: 50px;
+	width: 100px;
+	border:none;
+	border-radius: 25px;
+	color: #fff;
+	background: #f0932b;
+	border-radius: 24px;
+	cursor: pointer;
+	font-family: BRLNSB;
+	
+
+}
+
+.search-btn:hover{
+	background:grey;
+	}
+
+.search-field:focus{
+border-color: #f0932b;
+
+}
+
+.form-box{
+	/*background: rgb(0,0,0,.8);*/
+	padding: 30px;
+}
+
+h5{
+	font-size: 20px;}
+

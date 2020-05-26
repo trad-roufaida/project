@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="memoire" version="4">
+  <OBJECT>
+    <ID name="memoire" mc="Standard.Project" uid="1810e710-429d-450c-b180-922e2bb96c4d"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[memoire]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="memoire" mc="Standard.Package" uid="ecbd7013-38eb-487a-a5a5-e1890ed01a0c"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="memoire" mc="Infrastructure.DiagramSet" uid="43452885-69e8-405a-be46-e7858987a5ce"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

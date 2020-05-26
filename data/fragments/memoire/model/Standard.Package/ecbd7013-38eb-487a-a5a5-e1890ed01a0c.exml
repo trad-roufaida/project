@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="memoire" version="4">
+  <OBJECT>
+    <ID name="memoire" mc="Standard.Package" uid="ecbd7013-38eb-487a-a5a5-e1890ed01a0c"/>
+    <PID name="memoire" mc="Standard.Project" uid="1810e710-429d-450c-b180-922e2bb96c4d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[memoire]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="s'authentifier" mc="Standard.Interaction" uid="04b228fb-778f-4e20-bbc2-51a484719a7b"/>
+        <COMPID name="créer compte" mc="Standard.Interaction" uid="2645b6dd-7d35-4fcd-b446-248a0a157f47"/>
+        <COMPID name="modifiercompte" mc="Standard.Interaction" uid="36ecf3a3-b4a3-4266-90af-64a6a3ce46d8"/>
+        <COMPID name="rechercher annonce" mc="Standard.Interaction" uid="26d14cd7-60c0-4368-a845-405dc2eb1665"/>
+        <COMPID name="evaluer annonce" mc="Standard.Interaction" uid="4bf464b7-da40-4e50-847d-4864c61dac9f"/>
+        <COMPID name="supprimer compte" mc="Standard.Interaction" uid="398c6aa2-3109-4922-a7f8-54ee91d3f1fb"/>
+        <COMPID name="consulter compte" mc="Standard.Interaction" uid="e6d3ce4a-adc8-49dd-8b1a-83ff5d1e6347"/>
+        <COMPID name="modifier disponibilité" mc="Standard.Interaction" uid="de83c4c8-451e-4be4-a0f1-8150c5d09002"/>
+        <COMPID name="contacter administrateur" mc="Standard.Interaction" uid="97013b6f-196c-4b56-9029-4a334fa8400b"/>
+        <COMPID name="publier annonce" mc="Standard.Interaction" uid="1ad7b046-29f7-43e8-b375-e1c10f67af89"/>
+        <COMPID name="valider annonce" mc="Standard.Interaction" uid="72d3e103-181c-401c-abdd-2dacd3f326b1"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="utilisateur" mc="Standard.Actor" uid="4217213d-f889-4c0d-8fe3-f4ce3b1e9320"/>
+        <COMPID name="créer compte" mc="Standard.UseCase" uid="1b6a4398-330e-4dff-9394-2f3fa0b25f11"/>
+        <COMPID name="contacter annonceur" mc="Standard.UseCase" uid="b2a2ae8f-e5b9-4c39-bbaf-8c00a370e4e3"/>
+        <COMPID name="evaluer annonce" mc="Standard.UseCase" uid="a837548f-2e24-42c7-a97b-90b018a8ebfc"/>
+        <COMPID name="consulter compte personnele" mc="Standard.UseCase" uid="2f3bdbc3-52bc-47b7-a764-238592dc8094"/>
+        <COMPID name="modifier" mc="Standard.UseCase" uid="0cd8fac5-65e6-40f6-b5d7-dcc6fabfce92"/>
+        <COMPID name="supprimer" mc="Standard.UseCase" uid="71336261-5d24-49d9-a754-ba333fe8f31f"/>
+        <COMPID name="adiministrateur" mc="Standard.Actor" uid="f579ac3f-55e4-4970-be5a-37f6eebfecbe"/>
+        <COMPID name="supprimer compte" mc="Standard.UseCase" uid="84903e67-74be-41ea-a470-fba66f3a9a69"/>
+        <COMPID name="s'authentifier" mc="Standard.UseCase" uid="62d80a48-dd21-45bc-9e03-1891e6e7d3f8"/>
+        <COMPID name="utilisateur" mc="Standard.Class" uid="5ce254c6-53c3-4ea0-97bc-69f7888571d5"/>
+        <COMPID name="visiteur" mc="Standard.Actor" uid="2ca2137d-273c-4d8d-9e84-e2f172b0eb68"/>
+        <COMPID name=" gerer annonce" mc="Standard.UseCase" uid="b255dfe7-8a0f-4768-915f-d0f8c5b0f342"/>
+        <COMPID name="commenter" mc="Standard.UseCase" uid="55f9bec0-57a5-4a96-a6f7-bb14b740a93b"/>
+        <COMPID name="mettre pourcentage" mc="Standard.UseCase" uid="a015c142-2902-445d-a642-6481c9c3ebef"/>
+        <COMPID name="metier" mc="Standard.Class" uid="328f5376-a9bf-483e-b181-00c55d892d97"/>
+        <COMPID name="annonce" mc="Standard.Class" uid="f2d092e2-3111-4661-b509-b4b17ef3557e"/>
+        <COMPID name="commentaire" mc="Standard.Class" uid="0fbc4915-06d4-48d0-bd7c-a6f6da4d2c48"/>
+        <COMPID name="rechercher annonce" mc="Standard.UseCase" uid="49eac6cb-a6c1-4ff6-aea9-f6392bb07aca"/>
+        <COMPID name="ville" mc="Standard.Class" uid="881443ba-a207-407c-a141-1c843fdd5b97"/>
+        <COMPID name="contacter administrateur" mc="Standard.UseCase" uid="59022a3e-7d99-4c93-a1ba-14b662f7f913"/>
+        <COMPID name="modifier" mc="Standard.UseCase" uid="cca2aeea-949a-4c21-b6f3-2e6077e710cf"/>
+        <COMPID name="supprimer" mc="Standard.UseCase" uid="7d77e4a4-6ae2-4a97-9320-bfe918db3961"/>
+        <COMPID name="publier" mc="Standard.UseCase" uid="39ee4644-ba54-4bfa-91c8-56cfa7366877"/>
+        <COMPID name="valider annonce" mc="Standard.UseCase" uid="93812d42-f119-4f9f-936a-774852885e02"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="memoire Use Case diagram" mc="Standard.UseCaseDiagram" uid="daa53639-d60b-4f2c-9b5f-374aee210b6a"/>
+        <COMPID name="memoire Class diagram" mc="Standard.ClassDiagram" uid="03d8fca0-250f-469a-9f67-1ed81e83f6d8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
